@@ -1,0 +1,8 @@
+# Redirect root to the main portal
+/ /index.html 200
+
+# Redirect game folder to hosted game
+/games/neondrop/* https://neondrop5.pages.dev/:splat 200
+
+# Redirect learn folder to educational content
+/learn/* /learn/index.html 200

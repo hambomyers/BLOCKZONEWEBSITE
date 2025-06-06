@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Hub - Blockzone Lab</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/lessons.css">
+</head>
+<body>
+    <div class="hub-container">
+        <header class="hub-header">
+            <a href="../index.html" class="back-home">← Back to Lab</a>
+            <h1>The Rabbit Hole</h1>
+            <p class="hub-tagline">Go as deep as you dare</p>
+        </header>
+
+        <div class="learning-path">
+            <!-- Level 0: Curious Visitor -->
+            <div class="level-card unlocked" data-level="0">
+                <div class="level-header">
+                    <span class="level-number">Level 0</span>
+                    <h2>Curious Visitor</h2>
+                    <span class="level-status">Start Here</span>
+                </div>
+                <p class="level-description">What even is money? Let's start from the beginning.</p>
+                <div class="lessons">
+                    <a href="level-0/what-is-money.html" class="lesson-link">
+                        <span class="lesson-icon">💰</span>
+                        What is Money?
+                    </a>
+                </div>
+                <div class="level-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Level 1: Computing Basics -->
+            <div class="level-card unlocked" data-level="1">
+                <div class="level-header">
+                    <span class="level-number">Level 1</span>
+                    <h2>Computing Basics</h2>
+                    <span class="level-status">Ready</span>
+                </div>
+                <p class="level-description">Computers, databases, and shared spreadsheets.</p>
+                <div class="lessons">
+                    <a href="level-1/how-computers-work.html" class="lesson-link">
+                        <span class="lesson-icon">💻</span>
+                        How Computers Work
+                    </a>
+                    <a href="level-1/data-and-databases.html" class="lesson-link">
+                        <span class="lesson-icon">🗄️</span>
+                        Data & Databases
+                    </a>
+                    <a href="level-1/shared-spreadsheets.html" class="lesson-link">
+                        <span class="lesson-icon">📊</span>
+                        The Shared Spreadsheet
+                    </a>
+                </div>
+                <div class="level-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Level 2: Cryptography -->
+            <div class="level-card locked" data-level="2">
+                <div class="level-header">
+                    <span class="level-number">Level 2</span>
+                    <h2>Secret Messages</h2>
+                    <span class="level-status">Complete Level 1 First</span>
+                </div>
+                <p class="level-description">How cryptography keeps secrets and proves truth.</p>
+                <div class="lessons locked-content">
+                    <div class="lesson-preview">🔐 3 lessons awaiting</div>
+                </div>
+            </div>
+
+            <!-- Level 3: Blockchain Origins -->
+            <div class="level-card locked" data-level="3">
+                <div class="level-header">
+                    <span class="level-number">Level 3</span>
+                    <h2>Before Bitcoin</h2>
+                    <span class="level-status">Locked</span>
+                </div>
+                <p class="level-description">The cypherpunks, failed attempts, and Satoshi's breakthrough.</p>
+                <div class="lessons locked-content">
+                    <div class="lesson-preview">📜 3 lessons awaiting</div>
+                </div>
+            </div>
+
+            <!-- Level 4: Modern Blockchain -->
+            <div class="level-card locked" data-level="4">
+                <div class="level-header">
+                    <span class="level-number">Level 4</span>
+                    <h2>Speed Matters</h2>
+                    <span class="level-status">Locked</span>
+                </div>
+                <p class="level-description">Why Sonic Labs enables games where everyone wins.</p>
+                <div class="lessons locked-content">
+                    <div class="lesson-preview">⚡ 3 lessons awaiting</div>
+                </div>
+            </div>
+
+            <!-- Level 5: Tokenomics -->
+            <div class="level-card locked" data-level="5">
+                <div class="level-header">
+                    <span class="level-number">Level 5</span>
+                    <h2>Token Economics</h2>
+                    <span class="level-status">Locked</span>
+                </div>
+                <p class="level-description">Why two tokens? How does everyone win? The math revealed.</p>
+                <div class="lessons locked-content">
+                    <div class="lesson-preview">🪙 4 lessons awaiting</div>
+                </div>
+            </div>
+
+            <!-- Level 99: The Deep End -->
+            <div class="level-card legendary locked" data-level="99">
+                <div class="level-header">
+                    <span class="level-number">Level 99</span>
+                    <h2>The Builder's Path</h2>
+                    <span class="level-status">Complete All Levels</span>
+                </div>
+                <p class="level-description">Build your own games. Use our code. Change the world.</p>
+                <div class="lessons locked-content">
+                    <div class="lesson-preview">🚀 The final frontier</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Progress Overview -->
+        <div class="progress-overview">
+            <h3>Your Journey</h3>
+            <div class="journey-stats">
+                <div class="stat">
+                    <span class="stat-value" id="lessons-complete">0</span>
+                    <span class="stat-label">Lessons Complete</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value" id="quizzes-passed">0</span>
+                    <span class="stat-label">Quizzes Passed</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value" id="knowledge-level">Visitor</span>
+                    <span class="stat-label">Knowledge Level</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Teaser -->
+        <div class="hub-footer">
+            <p class="teaser">Each level unlocks deeper understanding. How far will you go?</p>
+        </div>
+    </div>
+
+    <script>
+        // Load user progress
+        function loadProgress() {
+            const progress = JSON.parse(localStorage.getItem('blockzoneProgress') || '{}');
+            
+            // Update UI based on progress
+            Object.keys(progress).forEach(level => {
+                if (progress[level].completed) {
+                    unlockLevel(parseInt(level) + 1);
+                }
+                updateLevelProgress(level, progress[level]);
+            });
+            
+            // Update stats
+            updateStats(progress);
+        }
+
+        function unlockLevel(level) {
+            const card = document.querySelector(`[data-level="${level}"]`);
+            if (card) {
+                card.classList.remove('locked');
+                card.classList.add('unlocked');
+                
+                // Show lessons
+                const lessons = card.querySelector('.lessons');
+                lessons.classList.remove('locked-content');
+                
+                // Update status
+                const status = card.querySelector('.level-status');
+                status.textContent = 'Ready';
+            }
+        }
+
+        function updateLevelProgress(level, data) {
+            const card = document.querySelector(`[data-level="${level}"]`);
+            if (card && data.progress) {
+                const fill = card.querySelector('.progress-fill');
+                fill.style.width = `${data.progress}%`;
+            }
+        }
+
+        function updateStats(progress) {
+            let totalLessons = 0;
+            let totalQuizzes = 0;
+            
+            Object.values(progress).forEach(level => {
+                totalLessons += level.lessonsComplete || 0;
+                totalQuizzes += level.quizPassed ? 1 : 0;
+            });
+            
+            document.getElementById('lessons-complete').textContent = totalLessons;
+            document.getElementById('quizzes-passed').textContent = totalQuizzes;
+            
+            // Update knowledge level
+            const levels = ['Visitor', 'Student', 'Learner', 'Scholar', 'Expert', 'Master', 'Builder'];
+            const knowledgeLevel = levels[Math.min(totalQuizzes, levels.length - 1)];
+            document.getElementById('knowledge-level').textContent = knowledgeLevel;
+        }
+
+        // Initialize
+        loadProgress();
+    </script>
+</body>
+</html>

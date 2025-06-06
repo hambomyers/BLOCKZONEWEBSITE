@@ -1,0 +1,79 @@
+{
+    "quiz": [
+        {
+            "question": "What is the primary purpose of money?",
+            "options": ["To store energy", "To encode information", "To reduce entropy", "All of the above"],
+            "answer": "All of the above"
+        },
+        {
+            "question": "What is the main limitation of barter systems?",
+            "options": ["Lack of trust", "Double coincidence of wants", "High transaction costs", "Limited scalability"],
+            "answer": "Double coincidence of wants"
+        },
+        {
+            "question": "Which stage of money evolution introduced decentralization?",
+            "options": ["Barter", "Commodity Money", "Fiat Money", "Digital Money"],
+            "answer": "Digital Money"
+        },
+        {
+            "question": "How does blockchain ensure trust?",
+            "options": ["By relying on central authorities", "By using cryptography and consensus", "By issuing fiat currency", "By reducing transaction costs"],
+            "answer": "By using cryptography and consensus"
+        },
+        {
+            "question": "What is the primary function of cryptography in blockchain?",
+            "options": ["To speed up transactions", "To secure information", "To create new coins", "To reduce energy consumption"],
+            "answer": "To secure information"
+        },
+        {
+            "question": "Why is scalability important for money?",
+            "options": ["To support global transactions", "To prevent counterfeiting", "To reduce costs", "To ensure trust"],
+            "answer": "To support global transactions"
+        },
+        {
+            "question": "What is the main advantage of digital money over fiat money?",
+            "options": ["It is faster", "It is decentralized", "It is more secure", "It is easier to use"],
+            "answer": "It is decentralized"
+        },
+        {
+            "question": "What does 'trustless' mean in the context of blockchain?",
+            "options": ["No need to trust any single party", "No need for cryptography", "No need for consensus", "No need for energy"],
+            "answer": "No need to trust any single party"
+        },
+        {
+            "question": "What is the role of a ledger in money systems?",
+            "options": ["To store value", "To record transactions", "To create new money", "To reduce entropy"],
+            "answer": "To record transactions"
+        },
+        {
+            "question": "What property of money reduces chaos in economic systems?",
+            "options": ["Trust", "Energy", "Entropy", "Information"],
+            "answer": "Trust"
+        },
+        {
+            "question": "What is the main challenge of interplanetary money systems?",
+            "options": ["Lack of trust", "High latency", "Limited scalability", "High costs"],
+            "answer": "High latency"
+        },
+        {
+            "question": "What is the key innovation of blockchain technology?",
+            "options": ["Centralized control", "Decentralized trust", "Faster transactions", "Lower costs"],
+            "answer": "Decentralized trust"
+        },
+        {
+            "question": "Why is energy important in the context of money?",
+            "options": ["It powers transactions", "It represents value", "It reduces entropy", "It encodes information"],
+            "answer": "It represents value"
+        },
+        {
+            "question": "What is the relationship between money and information?",
+            "options": ["Money is a form of information", "Money replaces information", "Money reduces the need for information", "Money is unrelated to information"],
+            "answer": "Money is a form of information"
+        },
+        {
+            "question": "What is the next step in the evolution of money?",
+            "options": ["Fiat Money", "Digital Money", "Blockchain-based Money", "Barter"],
+            "answer": "Blockchain-based Money"
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Neon Drop - Where everyone wins">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>Neon Drop - Blockzone Lab</title>
+    
+    <!-- Your game styles -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Fonts for Bungee -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Back to hub link */
+        .back-to-hub {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            color: #8A2BE2;
+            text-decoration: none;
+            font-family: monospace;
+            z-index: 100;
+            opacity: 0.7;
+            transition: opacity 0.2s;
+        }
+        .back-to-hub:hover {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <a href="../index.html" class="back-to-hub">← Back to Lab</a>
+    
+    <!-- Game Canvases -->
+    <canvas id="bg"></canvas>
+    <canvas id="game"></canvas>
+    
+    <!-- UI Container -->
+    <div id="ui-container"></div>
+    
+    <!-- Touch Controls -->
+    <div id="touch-controls">
+        <div class="touch-left">
+            <button class="touch-btn" data-action="left">◀</button>
+        </div>
+        <div class="touch-center">
+            <button class="touch-btn" data-action="down">▼</button>
+            <button class="touch-btn" data-action="rotate">↻</button>
+        </div>
+        <div class="touch-right">
+            <button class="touch-btn" data-action="right">▶</button>
+        </div>
+        <div class="touch-bottom">
+            <button class="touch-btn" data-action="drop">⬇⬇</button>
+            <button class="touch-btn" data-action="hold">HOLD</button>
+        </div>
+    </div>
+    
+    <!-- Main Game Script -->
+    <script type="module" src="main.js"></script>
+    <script>
+        window.location.href = "https://neondrop5.pages.dev/";
+    </script>
+</body>
+</html>

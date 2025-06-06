@@ -1,0 +1,84 @@
+{
+    "quiz": [
+        {
+            "question": "What is the primary function of a computer?",
+            "options": ["To store data", "To process data", "To display data", "All of the above"],
+            "answer": "All of the above"
+        },
+        {
+            "question": "What is a database?",
+            "options": ["A collection of data", "A type of computer", "A programming language", "None of the above"],
+            "answer": "A collection of data"
+        },
+        {
+            "question": "What is the main problem with keeping scores in email?",
+            "options": [
+                "Emails are too slow",
+                "No single source of truth",
+                "Email costs money",
+                "Emails are hard to write"
+            ],
+            "answer": "No single source of truth"
+        },
+        {
+            "question": "What makes Google Sheets better than email for tracking data?",
+            "options": [
+                "It's free",
+                "It has colors",
+                "Everyone sees the same data",
+                "Google is a big company"
+            ],
+            "answer": "Everyone sees the same data"
+        },
+        {
+            "question": "What's the main risk with Google Sheets?",
+            "options": [
+                "It's too complicated",
+                "Single point of failure (Google controls it)",
+                "It costs too much",
+                "It's too slow"
+            ],
+            "answer": "Single point of failure (Google controls it)"
+        },
+        {
+            "question": "What is the main advantage of Google Sheets over email for collaboration?",
+            "options": [
+                "It is faster",
+                "It allows real-time updates",
+                "It is more secure",
+                "It is free"
+            ],
+            "answer": "It allows real-time updates"
+        },
+        {
+            "question": "What is a 'single point of failure' in the context of Google Sheets?",
+            "options": [
+                "When only one person can edit",
+                "When the system relies on one entity (Google)",
+                "When the spreadsheet has only one row",
+                "When the data is not backed up"
+            ],
+            "answer": "When the system relies on one entity (Google)"
+        },
+        {
+            "question": "How does a blockchain spreadsheet differ from Google Sheets?",
+            "options": [
+                "It is faster",
+                "It is owned by everyone",
+                "It allows unlimited edits",
+                "It is private"
+            ],
+            "answer": "It is owned by everyone"
+        },
+        {
+            "question": "Why is immutability important in a blockchain?",
+            "options": [
+                "It ensures data cannot be changed",
+                "It makes the system faster",
+                "It reduces storage costs",
+                "It allows private access"
+            ],
+            "answer": "It ensures data cannot be changed"
+        }
+    ]
+}
